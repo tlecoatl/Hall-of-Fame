@@ -1,0 +1,102 @@
+input, textarea{
+  border:none;
+  box-shadow: 0px 0px 10px black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid transparent;
+  border-radius:10px;
+}
+
+label {
+  margin: 20px;
+}
+
+button {
+  margin: 20px;
+}
+
+input:focus{
+  text-decoration: none;
+}
+input:focus-within{
+  border: 2px solid aqua;
+}
+
+.tableInput{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.tableBody{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header{
+  padding: 10px;
+  text-align: center;
+  background: tomato;
+  color: white;
+  font-size: 30px;
+}
+
+.Etable th {
+	border-right-style: outset;
+	border-bottom-style: outset;
+	color: darkslategrey;
+	background-color: orangered;
+	text-align: center;
+	table-layout: fixed;
+}
+
+.Etable td {
+	color: rebeccapurple;
+	text-align: center;
+	padding: 4% 2%;
+}
+
+.Etable tr:nth-child(odd) {
+	background-color: tomato;
+	border-bottom: 1px solid grey;
+}
+
+.Etable tr:nth-child(even) {
+	background-color: coral;
+	border-bottom: 1px solid grey;
+}
+
+#name, #email, #message{
+  display:inline-block;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+img{
+  margin: 10px;
+}
+
+h1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
